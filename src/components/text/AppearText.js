@@ -10,7 +10,7 @@ import clsx from 'clsx';
 //============================================================
 
 const AppearText = ({ text, delay, className }) => {
-  const [showText, setShowText] = useState('');
+  const [showText, setShowText] = useState('opacity-0');
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -24,7 +24,7 @@ const AppearText = ({ text, delay, className }) => {
 
   return (
     <>
-      <h1 className={clsx('transition-all ease-in-out delay-1000 opacity-0', className, showText)}>
+      <h1 className={clsx('transition-all ease-in-out duration-500', className, showText)}>
         {text}
       </h1>
     </>
