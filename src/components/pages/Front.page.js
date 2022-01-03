@@ -48,12 +48,12 @@ const FrontPage = () => {
         <div className="w-full h-3/5 flex justify-center items-center">
           <div className="flex flex-col gap-4 justify-center items-center">
             <AppearText
-              className="font-mono text-7xl text-frost-400"
+              className="font-display font-bold text-7xl text-frost-400"
               text="JOHN COSTA"
               delay={750}
             />
             <AppearText
-              className="font-mono text-5xl text-frost-200"
+              className="font-display font-bold text-5xl text-frost-200"
               text="DEVELOPER"
               delay={1500}
             />

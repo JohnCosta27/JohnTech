@@ -27,7 +27,11 @@ module.exports = {
         purple: '#B48EAD',
       },
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        display: ['Open Sans'],
+      },
+    },
   },
   variants: {
     extend: {},
