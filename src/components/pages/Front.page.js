@@ -17,6 +17,8 @@ import Introduction from '../sections/Introduction';
 // Component
 //============================================================
 
+const DELAY = 0;
+
 const FrontPage = () => {
   return (
     <>
@@ -25,23 +27,23 @@ const FrontPage = () => {
           <Cdiv className="w-full h-full gap-2">
             <Cdiv className="flex-1 h-full">
               <AppearText
-                className="font-mono text-2xl text-snow-storm-300 cursor-pointer hover:text-3xl hover:text-snow-storm-100"
+                className="font-display text-2xl text-snow-storm-300 cursor-pointer hover:text-3xl hover:text-snow-storm-100"
                 text="Option #1"
-                delay={2500}
+                delay={DELAY * 2.5}
               />
             </Cdiv>
             <Cdiv className="flex-1 h-full">
               <AppearText
-                className="font-mono text-2xl text-snow-storm-300 cursor-pointer hover:text-3xl hover:text-snow-storm-100"
+                className="font-display text-2xl text-snow-storm-300 cursor-pointer hover:text-3xl hover:text-snow-storm-100"
                 text="Option #2"
-                delay={2500}
+                delay={DELAY * 2.5}
               />
             </Cdiv>
             <Cdiv className="flex-1 h-full">
               <AppearText
-                className="font-mono text-2xl text-snow-storm-300 cursor-pointer hover:text-3xl hover:text-snow-storm-100"
+                className="font-display text-2xl text-snow-storm-300 cursor-pointer hover:text-3xl hover:text-snow-storm-100"
                 text="Option #3"
-                delay={2500}
+                delay={DELAY * 2.5}
               />
             </Cdiv>
           </Cdiv>
@@ -51,16 +53,16 @@ const FrontPage = () => {
             <AppearText
               className="font-display font-bold text-7xl text-frost-400"
               text="JOHN COSTA"
-              delay={750}
+              delay={DELAY}
             />
             <AppearText
               className="font-display font-bold text-5xl text-frost-200"
               text="DEVELOPER"
-              delay={1500}
+              delay={DELAY * 2}
             />
           </div>
         </div>
-        <FadeComponent delay={2500}>
+        <FadeComponent delay={DELAY * 2.5}>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path
               className="fill-frost-200"
@@ -68,7 +70,7 @@ const FrontPage = () => {
               d="M0,96L80,85.3C160,75,320,53,480,58.7C640,64,800,96,960,101.3C1120,107,1280,85,1360,74.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
           </svg>
         </FadeComponent>
-        <FadeComponent delay={2500}>
+        <FadeComponent delay={DELAY * 2.5}>
           <Introduction />
         </FadeComponent>
       </div>
