@@ -18,7 +18,7 @@ import Skills from '../sections/Skills';
 // Component
 //============================================================
 
-const DELAY = 0;
+const DELAY = 1000;
 
 const FrontPage = () => {
   return (
