@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./src/**/*.{js, jsx}'],
+  content: ['./components/**/*.{html,js,jsx}', './public/index.html', './src/**/*.{html,js,jsx}'],
   theme: {
     extend: {
       colors: {
@@ -29,7 +29,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        display: ['Calibre'],
+        display: ['Inter'],
       },
     },
   },
