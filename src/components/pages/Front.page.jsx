@@ -12,7 +12,7 @@ import AppearText from '../text/AppearText';
 import Cdiv from '../core/Cdiv';
 import FadeComponent from '../core/FadeComponent';
 import Introduction from '../sections/Introduction';
-import Skills from '../sections/Skills';
+import Skills from '../sections/Experience';
 
 //============================================================
 // Component
@@ -29,21 +29,21 @@ const FrontPage = () => {
             <Cdiv className="flex-1 h-full">
               <AppearText
                 className="font-display text-2xl text-snow-storm-300 cursor-pointer hover:text-3xl hover:text-snow-storm-100"
-                text="Option #1"
+                text="About Me"
                 delay={DELAY * 2.5}
               />
             </Cdiv>
             <Cdiv className="flex-1 h-full">
               <AppearText
                 className="font-display text-2xl text-snow-storm-300 cursor-pointer hover:text-3xl hover:text-snow-storm-100"
-                text="Option #2"
+                text="Experience"
                 delay={DELAY * 2.5}
               />
             </Cdiv>
             <Cdiv className="flex-1 h-full">
               <AppearText
                 className="font-display text-2xl text-snow-storm-300 cursor-pointer hover:text-3xl hover:text-snow-storm-100"
-                text="Option #3"
+                text="Projects"
                 delay={DELAY * 2.5}
               />
             </Cdiv>
