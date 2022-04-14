@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Introduction = () => {
   return (
-    <div className="w-full flex h-auto md:h-[40vh] justify-center items-center bg-frost-200">
+    <div className="w-full flex h-auto justify-center items-center bg-frost-200">
       <div className="w-full flex md:flex-row flex-col p-4 max-w-5xl gap-4">
         <div className="w-full flex flex-col gap-4 font-display text-polar-night-400">
           <h1 className="text-7xl font-bold">Hi, I'm John</h1>

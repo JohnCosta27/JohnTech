@@ -12,7 +12,7 @@ import AppearText from '../text/AppearText';
 import Cdiv from '../core/Cdiv';
 import FadeComponent from '../core/FadeComponent';
 import Introduction from '../sections/Introduction';
-import Skills from '../sections/Experience';
+import Experience from '../sections/Experience';
 
 //============================================================
 // Component
@@ -72,7 +72,9 @@ const FrontPage = () => {
         </FadeComponent>
         <FadeComponent delay={DELAY * 2.5}>
           <Introduction />
-          <Skills />
+        </FadeComponent>
+        <FadeComponent delay={DELAY * 2.5}>
+          <Experience />
         </FadeComponent>
       </div>
     </>
