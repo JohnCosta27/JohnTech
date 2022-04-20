@@ -2,19 +2,19 @@
 // Essential Imports
 //============================================================
 
-import React, { useState, useEffect } from 'react';
-import clsx from 'clsx';
+import React, { useState, useEffect } from "react";
+import clsx from "clsx";
 
 //============================================================
 // Component
 //============================================================
 
 const AppearText = ({ text, delay, className }) => {
-  const [showText, setShowText] = useState('opacity-0');
+  const [showText, setShowText] = useState("opacity-0");
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setShowText('opacity-100');
+      setShowText("opacity-100");
     }, delay);
 
     return () => {
@@ -24,7 +24,13 @@ const AppearText = ({ text, delay, className }) => {
 
   return (
     <>
-      <h1 className={clsx('transition-all ease-in-out duration-500', className, showText)}>
+      <h1
+        className={clsx(
+          "transition-all ease-in-out duration-500",
+          className,
+          showText
+        )}
+      >
         {text}
       </h1>
     </>

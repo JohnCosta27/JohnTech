@@ -2,14 +2,14 @@
 // Essential Imports
 //============================================================
 
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //============================================================
 // Pages
 //============================================================
 
-import FrontPage from './pages/Front.page';
+import FrontPage from "./pages/Front.page";
 
 const App = () => {
   return (

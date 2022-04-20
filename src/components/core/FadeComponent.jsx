@@ -2,19 +2,19 @@
 // Essential Imports
 //============================================================
 
-import clsx from 'clsx';
-import React, { useEffect, useState } from 'react';
+import clsx from "clsx";
+import React, { useEffect, useState } from "react";
 
 //============================================================
 // Component
 //============================================================
 
 const FadeComponent = ({ delay, children }) => {
-  const [showComponent, setShowComponent] = useState('opacity-0');
+  const [showComponent, setShowComponent] = useState("opacity-0");
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setShowComponent('opacity-100');
+      setShowComponent("opacity-100");
     }, delay);
 
     return () => {
@@ -24,7 +24,12 @@ const FadeComponent = ({ delay, children }) => {
 
   return (
     <div className="w-full bg-polar-night-400">
-      <div className={clsx('w-full transition-all ease-in-out duration-500 ', showComponent)}>
+      <div
+        className={clsx(
+          "w-full transition-all ease-in-out duration-500 ",
+          showComponent
+        )}
+      >
         {children}
       </div>
     </div>
