@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import clsx from "clsx";
-
-const experienceTitle = ["Real Tutor", "Tensorcrypt", "SSC Website"];
-const experience = ["Hello", "World", "!"];
+import Tensorcrypt from "./Tensorcrypt";
 
 const Experience = () => {
   const [currentSection, setCurrentSection] = useState(0);
@@ -16,6 +14,16 @@ const Experience = () => {
     }, 250);
   };
 
+  const getText = (index) => {
+    if (index == 0) {
+      return <Tensorcrypt />;
+    } else if (index == 1) {
+      return <Tensorcrypt />;
+    } else {
+      return <Tensorcrypt />;
+    }
+  };
+
   return (
     <div className="w-full flex flex-col justify-center  items-center bg-frost-200 py-12">
       <div className="w-full flex md:flex-row flex-col p-4 max-w-5xl gap-4">
@@ -25,7 +33,7 @@ const Experience = () => {
           </h1>
         </div>
       </div>
-      <div className="w-full flex justify-center px-4">
+      <div className="w-3/4 flex justify-center px-4">
         <div className="w-full max-w-7xl flex bg-polar-night-400 py-4 rounded-md">
           <div className="w-12 flex flex-col justify-between items-center h-96 relative">
             <div className="w-8 h-8 flex justify-center items-center">
@@ -50,7 +58,7 @@ const Experience = () => {
           </div>
           <div className="w-24 h-full flex flex-col justify-between">
             <div className="h-8 flex items-center">
-              <p className="text-md text-snow-storm-300">14/04/2022</p>
+              <p className="text-lg text-snow-storm-300">Tensorcrypt</p>
             </div>
             <div className="h-8 flex items-center">
               <p className="text-md text-snow-storm-300">14/04/2022</p>
@@ -62,16 +70,11 @@ const Experience = () => {
           <div className={clsx("w-full h-full p-4 flex flex-col items-center")}>
             <div
               className={clsx(
-                "w-full flex flex-col items-center transition-all",
+                "w-3/4 flex flex-col items-center transition-all",
                 animationClasses
               )}
             >
-              <h1 className="text-2xl text-snow-storm-100">
-                {experienceTitle[currentSection]}
-              </h1>
-              <p className="text-md text-snow-storm-100">
-                {experience[currentSection]}
-              </p>
+              {getText(currentSection)}
             </div>
           </div>
         </div>
