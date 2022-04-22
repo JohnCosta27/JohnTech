@@ -18,7 +18,7 @@ import Experience from "../sections/Experience";
 // Component
 //============================================================
 
-const DELAY = 1000;
+const DELAY = 0;
 
 const FrontPage = () => {
   return (

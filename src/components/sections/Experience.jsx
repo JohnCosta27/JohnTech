@@ -1,11 +1,20 @@
 import React, { useState, useEffect } from "react";
+import clsx from "clsx";
 
-const experienceTitle = ["Real Tutor", "Tensorcrypt", "SSC Website"]
+const experienceTitle = ["Real Tutor", "Tensorcrypt", "SSC Website"];
 const experience = ["Hello", "World", "!"];
 
 const Experience = () => {
   const [currentSection, setCurrentSection] = useState(0);
-  useEffect(() => console.log(currentSection), [currentSection]);
+  const [animationClasses, setAnimationClasses] = useState("opacity-100");
+
+  const changeText = (index) => {
+    setAnimationClasses("opacity-0");
+    setTimeout(() => {
+      setAnimationClasses("opacity-100");
+      setCurrentSection(index);
+    }, 250);
+  };
 
   return (
     <div className="w-full flex flex-col justify-center  items-center bg-frost-200 py-12">
@@ -22,48 +31,48 @@ const Experience = () => {
             <div className="w-8 h-8 flex justify-center items-center">
               <div
                 className="w-4 h-4 bg-frost-200 rounded-full z-20 hover:w-6 hover:h-6 transition-all"
-                onClick={() => setCurrentSection(0)}
+                onClick={() => changeText(0)}
               ></div>
             </div>
             <div className="w-8 h-8 flex justify-center items-center">
               <div
                 className="w-4 h-4 bg-frost-200 rounded-full z-20 hover:w-6 hover:h-6 transition-all"
-                onClick={() => setCurrentSection(1)}
+                onClick={() => changeText(1)}
               ></div>
             </div>
             <div className="w-8 h-8 flex justify-center items-center">
               <div
                 className="w-4 h-4 bg-frost-200 rounded-full z-20 hover:w-6 hover:h-6 transition-all"
-                onClick={() => setCurrentSection(2)}
+                onClick={() => changeText(2)}
               ></div>
             </div>
             <div className="w-1 h-full bg-blue-500 absolute rounded-full"></div>
           </div>
           <div className="w-24 h-full flex flex-col justify-between">
-            <div
-              className="h-8 flex items-center"
-              onClick={() => setCurrentSection(0)}
-            >
+            <div className="h-8 flex items-center">
               <p className="text-md text-snow-storm-300">14/04/2022</p>
             </div>
-            <div
-              className="h-8 flex items-center"
-              onClick={() => setCurrentSection(1)}
-            >
+            <div className="h-8 flex items-center">
               <p className="text-md text-snow-storm-300">14/04/2022</p>
             </div>
-            <div
-              className="h-8 flex items-center"
-              onClick={() => setCurrentSection(2)}
-            >
+            <div className="h-8 flex items-center">
               <p className="text-md text-snow-storm-300">14/04/2022</p>
             </div>
           </div>
-          <div className="w-full h-full p-4 flex flex-col items-center gap-2">
-            <h1 className="text-2xl text-snow-storm-100">{experienceTitle[currentSection]}</h1>
-            <p className="text-md text-snow-storm-100">
-              {experience[currentSection]}
-            </p>
+          <div className={clsx("w-full h-full p-4 flex flex-col items-center")}>
+            <div
+              className={clsx(
+                "w-full flex flex-col items-center transition-all",
+                animationClasses
+              )}
+            >
+              <h1 className="text-2xl text-snow-storm-100">
+                {experienceTitle[currentSection]}
+              </h1>
+              <p className="text-md text-snow-storm-100">
+                {experience[currentSection]}
+              </p>
+            </div>
           </div>
         </div>
       </div>
