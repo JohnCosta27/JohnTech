@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import clsx from "clsx";
 import Tensorcrypt from "./Tensorcrypt";
+import Realtutor from "./Realtutor";
+import Webdev from './Webdev';
 
 const Experience = () => {
   const [currentSection, setCurrentSection] = useState(0);
@@ -14,13 +16,17 @@ const Experience = () => {
     }, 250);
   };
 
+  /**
+   * This could be done with React-router,
+   * However this makes the animations easier - no need to over complciate it.
+   */
   const getText = (index) => {
     if (index == 0) {
       return <Tensorcrypt />;
     } else if (index == 1) {
-      return <Tensorcrypt />;
+      return <Realtutor />;
     } else {
-      return <Tensorcrypt />;
+      return <Webdev />;
     }
   };
 
@@ -61,10 +67,10 @@ const Experience = () => {
               <p className="text-lg text-snow-storm-300">Tensorcrypt</p>
             </div>
             <div className="h-8 flex items-center">
-              <p className="text-md text-snow-storm-300">14/04/2022</p>
+              <p className="text-lg text-snow-storm-300">Real Tutor</p>
             </div>
             <div className="h-8 flex items-center">
-              <p className="text-md text-snow-storm-300">14/04/2022</p>
+              <p className="text-lg text-snow-storm-300">Web dev</p>
             </div>
           </div>
           <div className={clsx("w-full h-full p-4 flex flex-col items-center")}>
