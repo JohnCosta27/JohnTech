@@ -13,6 +13,7 @@ import Cdiv from "../core/Cdiv";
 import FadeComponent from "../core/FadeComponent";
 import Introduction from "../sections/Introduction";
 import Experience from "../sections/Experience";
+import Projects from '../sections/Projects';
 
 //============================================================
 // Component
@@ -73,9 +74,8 @@ const FrontPage = () => {
         </FadeComponent>
         <FadeComponent delay={DELAY * 2.5}>
           <Introduction />
-        </FadeComponent>
-        <FadeComponent delay={DELAY * 2.5}>
           <Experience />
+          <Projects />
         </FadeComponent>
       </div>
     </>
