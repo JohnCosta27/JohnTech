@@ -9,7 +9,9 @@ const Projects = () => {
           Projects
         </h1>
         <div className="w-full grid grid-cols-3 gap-4">
-          <ProjectCard title="Real Tutor" description="Lessons and progress management tool, for my tutoring company." /> 
+          <ProjectCard title="Real Tutor" liveUrl="/" gitUrl="/">
+            <p className="text-xl text-snow-storm-100">A lesson and progress management system which allowed tutors at my company to schedule lessons, add repots and keep track of students progress. Built using the MERN stack.</p>
+          </ProjectCard>
           <ProjectCard title="Hello World" description="Hello World again lol" /> 
           <ProjectCard title="Hello World" description="Hello World again lol" /> 
           <ProjectCard title="Hello World" description="Hello World again lol" /> 
