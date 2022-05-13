@@ -9,7 +9,7 @@ const Projects = () => {
           Projects
         </h1>
         <div className="w-full grid grid-cols-3 gap-4">
-          <ProjectCard title="Hello World" description="Hello World again lol" /> 
+          <ProjectCard title="Real Tutor" description="Lessons and progress management tool, for my tutoring company." /> 
           <ProjectCard title="Hello World" description="Hello World again lol" /> 
           <ProjectCard title="Hello World" description="Hello World again lol" /> 
           <ProjectCard title="Hello World" description="Hello World again lol" /> 
