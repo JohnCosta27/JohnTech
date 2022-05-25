@@ -1,5 +1,6 @@
 import React from "react";
 import GitHubMark from "./GitHubMark";
+import PropTypes from "prop-types";
 
 const ProjectCard = ({ title, liveUrl, gitUrl, children }) => {
   const getLiveUrl = () => {
@@ -37,4 +38,11 @@ const ProjectCard = ({ title, liveUrl, gitUrl, children }) => {
     </div>
   );
 };
+
+ProjectCard.defaultProps = {
+  title: "Default Title",
+  liveUrl: "/",
+  gitUrl: "/",
+};
+
 export default ProjectCard;
