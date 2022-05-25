@@ -65,9 +65,10 @@ const Projects = () => {
             liveUrl="https://johncosta27.github.io/Snake/"
           >
             <p className="text-xl text-snow-storm-100">
-              My first big project. A classic snake game that adapts to the screen size you are on.
+              My first big project. A classic snake game that adapts to the
+              screen size you are on.
             </p>
-    </ProjectCard>
+          </ProjectCard>
         </div>
       </div>
     </div>

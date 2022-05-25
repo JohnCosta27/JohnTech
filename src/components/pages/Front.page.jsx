@@ -19,7 +19,7 @@ import Projects from '../sections/Projects';
 // Component
 //============================================================
 
-const DELAY = 0;
+const DELAY = 750;
 
 const FrontPage = () => {
   return (
