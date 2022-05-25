@@ -49,13 +49,25 @@ const Projects = () => {
             </p>
           </ProjectCard>
           <ProjectCard
-            title="Hello World"
-            description="Hello World again lol"
-          />
+            title="Disser"
+            gitUrl="https://github.com/JohnCosta27/Disser-RoyalHackaway2022"
+          >
+            <p className="text-xl text-snow-storm-100">
+              Royal Hackathon Project 2022. A real time social media which
+              allows users to communicate with each other in real time. It also
+              involves GPT-3 bots which communicate with each other and the
+              users.
+            </p>
+          </ProjectCard>
           <ProjectCard
-            title="Hello World"
-            description="Hello World again lol"
-          />
+            title="Snake"
+            gitUrl="https://github.com/JohnCosta27/Snake"
+            liveUrl="https://johncosta27.github.io/Snake/"
+          >
+            <p className="text-xl text-snow-storm-100">
+              My first big project. A classic snake game that adapts to the screen size you are on.
+            </p>
+    </ProjectCard>
         </div>
       </div>
     </div>

@@ -4,10 +4,10 @@ import PropTypes from "prop-types";
 
 const ProjectCard = ({ title, liveUrl, gitUrl, children }) => {
   const getLiveUrl = () => {
-    if (liveUrl.length == 0) {
+    if (liveUrl.length == 1) {
       return (
-        <div className="w-full flex justify-center items-center h-12 rounded bg-aurora-green text-polar-night-200 transition-all text-xl">
-          Live
+        <div className="w-full flex justify-center items-center h-12 rounded bg-aurora-orange text-polar-night-200 transition-all text-xl">
+          No Live :(
         </div>
       );
     }
