@@ -3,6 +3,7 @@
 //============================================================
 
 import React from "react";
+import '../../index.css';
 
 //============================================================
 // Imported Components
@@ -19,7 +20,7 @@ import Projects from '../sections/Projects';
 // Component
 //============================================================
 
-const DELAY = 750;
+const DELAY = 0;
 
 const FrontPage = () => {
   return (
