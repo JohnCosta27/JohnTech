@@ -6,14 +6,15 @@ console.log(posts[0].url);
   <head>
     <title>Blog</title>
   </head>
-  <body class="w-full flex justify-center">
-    <div class="w-1/2 flex flex-col">
-      {posts.map((post) => {
-        console.log(post.frontmatter);
-      return (
-        <h1>{post.frontmatter.title}</h1>
-        <a href={post.url}>Read</a>
-      )})}
+  <body class="w-full flex justify-center bg-polar-night-400 p-8">
+    <div class="w-full max-w-xl flex flex-col gap-4">
+      {posts.map((post) => (
+        <a href={post.url} class="flex flex-col border-frost-400 border-2 text-snow-storm-100 p-4 rounded-lg">
+          <h1 class="text-2xl">{post.frontmatter.title}</h1>
+          <p class="text-sm">{post.frontmatter.description}</p>
+          <p class="text-sm">{post.frontmatter.date}</p>
+        </a>
+      ))}
     </div>
   </body>
 </html>
