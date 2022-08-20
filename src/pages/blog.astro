@@ -1,0 +1,19 @@
+---
+const posts = await Astro.glob('./posts/*.md');
+console.log(posts[0].url);
+---
+<html>
+  <head>
+    <title>Blog</title>
+  </head>
+  <body class="w-full flex justify-center">
+    <div class="w-1/2 flex flex-col">
+      {posts.map((post) => {
+        console.log(post.frontmatter);
+      return (
+        <h1>{post.frontmatter.title}</h1>
+        <a href={post.url}>Read</a>
+      )})}
+    </div>
+  </body>
+</html>
