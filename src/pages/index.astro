@@ -1,11 +1,13 @@
 ---
 import FrontPage from '../components/pages/FrontPage';
+import Navbar from '../components/Navbar.astro';
 ---
 <html>
   <head>
     <title>My Homepage</title>
   </head>
-  <body>
+  <body class="w-full flex flex-col items-center bg-polar-night-400">
+    <Navbar />
     <FrontPage></FrontPage>
   </body>
 </html>

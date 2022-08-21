@@ -10,7 +10,6 @@ import '../../index.css';
 //============================================================
 
 import AppearText from "../text/AppearText";
-import Cdiv from "../core/Cdiv";
 import FadeComponent from "../core/FadeComponent";
 import Introduction from "../sections/Introduction";
 import Experience from "../sections/Experience";
@@ -26,31 +25,6 @@ const FrontPage = () => {
   return (
     <>
       <div className="w-full h-screen bg-polar-night-400">
-        <Cdiv className="w-full h-32 py-6 px-24">
-          <Cdiv className="w-full h-full gap-2">
-            <Cdiv className="flex-1 h-full">
-              <AppearText
-                className="font-display text-2xl text-snow-storm-300 cursor-pointer hover:text-3xl hover:text-snow-storm-100"
-                text="About Me"
-                delay={DELAY * 2.5}
-              />
-            </Cdiv>
-            <Cdiv className="flex-1 h-full">
-              <AppearText
-                className="font-display text-2xl text-snow-storm-300 cursor-pointer hover:text-3xl hover:text-snow-storm-100"
-                text="Experience"
-                delay={DELAY * 2.5}
-              />
-            </Cdiv>
-            <Cdiv className="flex-1 h-full">
-              <AppearText
-                className="font-display text-2xl text-snow-storm-300 cursor-pointer hover:text-3xl hover:text-snow-storm-100"
-                text="Projects"
-                delay={DELAY * 2.5}
-              />
-            </Cdiv>
-          </Cdiv>
-        </Cdiv>
         <div className="w-full h-3/5 flex justify-center items-center">
           <div className="flex flex-col gap-4 justify-center items-center">
             <AppearText

@@ -1,13 +1,15 @@
 ---
+import Navbar from '../components/Navbar.astro'
+
 const posts = await Astro.glob('./posts/*.md');
-console.log(posts[0].url);
 ---
 <html>
   <head>
     <title>Blog</title>
   </head>
-  <body class="w-full flex justify-center bg-polar-night-400 p-8">
-    <div class="w-full max-w-xl flex flex-col gap-4">
+  <body class="w-full flex flex-col items-center bg-polar-night-400">
+    <Navbar />
+    <div class="w-full max-w-xl flex flex-col gap-4 p-4">
       {posts.map((post) => (
         <a href={post.url} class="flex flex-col border-frost-400 border-2 text-snow-storm-100 p-4 rounded-lg">
           <h1 class="text-2xl">{post.frontmatter.title}</h1>

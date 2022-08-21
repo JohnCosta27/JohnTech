@@ -1,5 +1,5 @@
 ---
-layout: '../../layouts/lay.astro'
+layout: '../../layouts/post.astro'
 title: 'The Republic by Plate - A recap / review'
 ---
 
