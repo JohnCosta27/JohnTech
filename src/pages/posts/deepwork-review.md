@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/post.astro'
 title: 'Deepwork - Cal Newport'
+date: '16/08/2022'
 ---
 
 # Deepwork - Cal Newport. A review
