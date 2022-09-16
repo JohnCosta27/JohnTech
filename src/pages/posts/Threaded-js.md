@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/post.astro'
 title: 'Threaded JavaScript!'
+date: '10/04/2022'
 ---
 
 # Threaded Javascript

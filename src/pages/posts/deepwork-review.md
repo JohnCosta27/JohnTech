@@ -1,20 +1,21 @@
 ---
 layout: '../../layouts/post.astro'
 title: 'Deepwork - Cal Newport'
+date: '16/08/2022'
 ---
 
 # Deepwork - Cal Newport. A review
 
 This review is a little different because I wrote it down on paper, here are the pages:
 
-![DeepworkPart1](/src/pages/posts/DeepworkPart1.jpg)
+![DeepworkPart1](https://johncosta.tech/static/DeepworkPart1.jpg)
 
-![DeepworkPart2.jpg](/src/pages/posts/DeepworkPart2.jpg)
+![DeepworkPart2.jpg](https://johncosta.tech/static/DeepworkPart2.jpg)
 
-![DeepworkPart3.jpg](/src/pages/posts/DeepworkPart3.jpg)
+![DeepworkPart3.jpg](https://johncosta.tech/static/DeepworkPart3.jpg)
 
-![DeepworkPart4.jpg](/src/pages/posts/DeepworkPart4.jpg)
+![DeepworkPart4.jpg](https://johncosta.tech/static/DeepworkPart4.jpg)
 
-![DeepworkPart5.jpg](/src/pages/posts/DeepworkPart5.jpg)
+![DeepworkPart5.jpg](https://johncosta.tech/static/DeepworkPart5.jpg)
 
-![DeepworkPart6.jpg](/src/pages/posts/DeepworkPart6.jpg)
+![DeepworkPart6.jpg](https://johncosta.tech/static/DeepworkPart6.jpg)

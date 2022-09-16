@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/post.astro'
 title: 'The Republic by Plate - A recap / review'
+date: '05/01/2020'
 ---
 
 # The Republic - Plate
