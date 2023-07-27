@@ -2,10 +2,10 @@
 import Navbar from '../components/Navbar.astro'
 
 const posts = await Astro.glob('./posts/*.md');
-const sortedPosts = posts.sort((a, b) => { 
+posts.sort((a, b) => { 
   const splitA = a.frontmatter.date.split("/");
   const splitB = b.frontmatter.date.split("/");
-  return new Date(splitB[1], splitB[0], splitB[2]).getTime() - new Date(splitA[1], splitA[0], splitA[2]).getTime() 
+  return new Date(splitB[2], splitB[1], splitB[0]).getTime() - new Date(splitA[2], splitA[1], splitA[0]).getTime() 
 });
 ---
 <html>
@@ -16,7 +16,7 @@ const sortedPosts = posts.sort((a, b) => {
   <body class="w-full flex flex-col items-center bg-polar-night-400">
     <Navbar />
     <div class="w-full max-w-4xl flex flex-col gap-4 p-4">
-      {sortedPosts.map((post) => (
+      {posts.map((post) => (
         <a href={post.url} class="flex flex-col border-frost-400 border-2 text-snow-storm-100 p-4 rounded-lg">
           <h1 class="text-2xl">{post.frontmatter.title}</h1>
           <p class="text-sm">{post.frontmatter.description}</p>

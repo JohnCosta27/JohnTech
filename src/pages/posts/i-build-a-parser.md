@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/post.astro"
-title: "I build a Parser!"
+title: "I built a parser!"
 date: "27/07/2023"
 ---
 
