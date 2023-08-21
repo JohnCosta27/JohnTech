@@ -5,6 +5,7 @@ date: "21/09/2023"
 ---
 
 Link to Repo: [https://github.com/JohnCosta27/Huffmanz](https://github.com/JohnCosta27/Huffmanz)
+Link to Video: [https://www.youtube.com/watch?v=D5l5GUuNXB8&ab_channel=JohnCosta](https://www.youtube.com/watch?v=D5l5GUuNXB8&ab_channel=JohnCosta)
 
 [Huffman Encoding](https://en.wikipedia.org/wiki/Huffman_coding) is an algorithm for compressing text, using a binary tree to shorted the number of bits needed to represent each character. It's one of the first algorithms I learned in Computer Science. I was 14 year old and in Year 9. But until recently it hadn't crossed my mind again.
 
