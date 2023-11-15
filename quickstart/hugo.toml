@@ -28,7 +28,11 @@ url = "https://github.com/JohnCosta27/JohnTech"
 [[params.socialLinks]]
 icon = "fa-solid fa-envelope"
 title = "Email"
-url = "mailto:example@example.com"
+url = "mailto:johncosta027@gmail.com"
+[[params.socialLinks]]
+icon = "fa-brands fa-linkedin"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/john-costa-b883971b5/"
 
 [taxonomies]
 tags = "tags"
