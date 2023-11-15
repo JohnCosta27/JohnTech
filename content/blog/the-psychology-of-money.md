@@ -1,6 +1,6 @@
 +++
 title = "The Psychology of Money by Morgan Housel - A review"
-date = "11/2022-11-15"
+date = "2022-11-15"
 author = "John Costa"
 toc = true
 +++
