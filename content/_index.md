@@ -23,7 +23,7 @@ I am also a private GCSE/A-level Maths and Computer Science tutor, and have over
 
 # Projects
 
-I've developed various projects, which I have listen on the [projects]({{< relref "./projects/_index.md" >}}) page. There you will find blog posts, GitHub Repos and _maybe_ a YouTube video.
+I've developed various projects, which I have listed on the [projects]({{< relref "./projects/_index.md" >}}) page. There you will find blog posts, GitHub Repos and _maybe_ a YouTube video.
 
 ---
 
