@@ -7,11 +7,13 @@ theme = 'risotto'
 [[menu.main]]
     name = 'Blog'
     pageRef = '/blog'
+[[menu.main]]
+    name = 'Projects'
+    pageRef = '/projects'
 
-# Sidebar: about/bio
 [params.about]
 title = "John Costa"
-description = "A really good software engineer"
+description = "Software Engineer"
 
 # Sidebar: social links
 # Available icon sets:
@@ -21,9 +23,12 @@ description = "A really good software engineer"
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
 title = "GitHub"
-url = "https://github.com/joeroe/risotto"
+url = "https://github.com/JohnCosta27/JohnTech"
 
 [[params.socialLinks]]
 icon = "fa-solid fa-envelope"
 title = "Email"
 url = "mailto:example@example.com"
+
+[taxonomies]
+tags = "tags"

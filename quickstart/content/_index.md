@@ -7,16 +7,8 @@ date = 2023-11-14T17:55:14Z
 
 ---
 
-I am a Software Engineer, currently working at Decipad. I'm interested in various subjects including: Compilers, Web Development, Distributed System and many more.
-
----
+I am a Software Engineer, currently working at Decipad. I'm interested in various subjects including: Compilers, Linux Servers, Web Development, Distributed System and many more.
 
 # Projects
 
----
-
-I have some Projects
-
-- Bruh 1
-- Bruh 2
-- Bruh 3
+I've developed various projects

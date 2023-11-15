@@ -1,7 +1,9 @@
----
-title: "Deepwork - Cal Newport"
-date: "16/08/2022"
----
++++
+title = "Deepwork - Cal Newport"
+date = "2022-08-16"
+author = "John Costa"
+toc = true
++++
 
 This review is a little different because I wrote it down on paper, here are the pages:
 
