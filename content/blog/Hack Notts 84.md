@@ -1,6 +1,6 @@
 +++
-title: "HackNotts 84"
-date: "2023-07-11"
+title = "HackNotts 84"
+date = "2023-07-11"
 tags = ["software", "hackathons"]
 +++
 
