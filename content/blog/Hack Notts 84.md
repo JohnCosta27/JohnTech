@@ -1,8 +1,8 @@
----
-layout: "../../layouts/post.astro"
++++
 title: "HackNotts 84"
-date: "07/11/2023"
----
+date: "2023-07-11"
+tags = ["software", "hackathons"]
++++
 
 This year, I attended [HackNotts 84](https://www.hacknotts.com/) 84, a 24-hour hackathon hosted by the University of Nottingham. It was a great event with around 150 hackers, great sponsors and great prizes. I cannot fault the event and the organisers, they did a fantastic job.
 
