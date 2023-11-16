@@ -1,0 +1,3 @@
+[submodule "quickstart/themes/risotto"]
+	path = quickstart/themes/risotto
+	url = git@github.com:johncosta27/risotto.git
