@@ -2,6 +2,7 @@
 title = "Interfaces > Classes - A refactor story."
 date = "2023-11-18"
 tags = ["software"]
+toc = true
 +++
 
 # Introduction
