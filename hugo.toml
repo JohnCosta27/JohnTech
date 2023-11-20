@@ -2,6 +2,8 @@ baseURL = 'https://johncosta.tech/'
 languageCode = 'en-uk'
 title = 'John Costa'
 theme = 'risotto'
+[params]
+  palette = 'tokyo-night-dark'
 
 [menu]
 [[menu.main]]
@@ -14,6 +16,9 @@ theme = 'risotto'
 [params.about]
 title = "John Costa"
 description = "Software Engineer"
+
+[params.theme]
+palette = "tokyo-night-dark"
 
 # Sidebar: social links
 # Available icon sets:
