@@ -109,7 +109,7 @@ I've talked about the book as a whole and the key lessons I have taken from it (
 ## [Obsidian](https://obsidian.md)
 
 This is the champion of the entire system. I use other tools but this contains most information.
-![Obsidian Menu](obsidian_menu.png)
+![Obsidian Menu](/obsidian_menu.png)
 
 There are two reasons why I choose Obsidian, not only as the best option, but in many ways _the only option_.
 
@@ -133,13 +133,13 @@ Here are some that I use.
 
 A really powerful thing you can do with Dataview, is bringing tasks from across various files.
 
-![Tasks](tasks.png)
+![Tasks](/tasks.png)
 
 This alone means that I no longer need a todo app or a project manager, because this is plenty for me.
 
 Mapview is also really useful so I can store all the places I have been to, and check what I thought about them. Here is an example from a recent trip to Barcelona.
 
-![Map](map.png)
+![Map](/map.png)
 
 ## [Raindrop](https://raindrop.io)
 
