@@ -1,6 +1,6 @@
 +++
 title = "The year of the Camel - Advent of Code 2024"
-tags = []
+tags = ["software", "Advent of Code"]
 date = "2024-11-28"
 author = "John Costa"
 toc = true
