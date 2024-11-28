@@ -1,5 +1,5 @@
 +++
-title = "Real Time Trading system"
+title = "Advent of Code"
 date = "2024-11-28"
 author = "John Costa"
 toc = true
