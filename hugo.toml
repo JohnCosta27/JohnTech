@@ -25,6 +25,10 @@ palette = "tokyo-night-dark"
 # * FontAwesome 6 <https://fontawesome.com/> ('fa-brands', 'fa-normal', or 'fa-solid' for brands)
 # * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
 
+[Author]
+    name = "John Costa"
+    email  = "johncosta027@gmail.com"
+
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
 title = "GitHub"
