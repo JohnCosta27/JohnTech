@@ -27,7 +27,7 @@ palette = "tokyo-night-dark"
 
 [Author]
     name = "John Costa"
-    email  = "johncosta027@gmail.com"
+    email  = "me@johncosta.tech"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
