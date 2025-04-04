@@ -52,7 +52,7 @@ url = "https://converge.sh/1"
 [[params.socialLinks]]
 icon = "fa-solid fa-envelope"
 title = "Email"
-url = "mailto:johncosta027@gmail.com"
+url = "mailto:me@johncosta.tech"
 
 [taxonomies]
 tags = "tags"
