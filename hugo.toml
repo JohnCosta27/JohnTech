@@ -37,7 +37,7 @@ url = "https://github.com/JohnCosta27/JohnTech"
 [[params.socialLinks]]
 icon = "fa-brands fa-git-alt"
 title = "Gitea"
-url = "https://git.johncosta.tech"
+url = "https://git.johncosta.tech/JohnCosta27"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-linkedin"
