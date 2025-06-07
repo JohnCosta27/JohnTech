@@ -10,6 +10,8 @@ date = 2023-11-14T17:55:14Z
 # About Me
 I'm a Software Engineer currently working at Decipad [Decipad](https://www.decipad.com/). I do full-stack products, host my own services under my desk, solve coding problems and love to read.
 
+Read my website on your terminal `ssh -p 23234 blog.johncosta.tech`.
+
 ---
 
 # My Projects
