@@ -9,9 +9,15 @@ theme = 'risotto'
 [[menu.main]]
     name = 'Blog'
     pageRef = '/blog'
+    weight = 1
 [[menu.main]]
+    weight = 1
     name = 'Projects'
     pageRef = '/projects'
+[[menu.main]]
+    weight = 10
+    name = 'Books'
+    pageRef = '/books'
 
 [params.about]
 title = "John Costa"
