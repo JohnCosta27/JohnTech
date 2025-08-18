@@ -1,5 +1,5 @@
 +++
-title = "Keeping it safe and simple. My preffered way to verify API requests in the frontend"
+title = "Keeping it safe and simple. My preferred way to verify API requests in the frontend"
 date = "2025-08-18"
 author = "John Costa"
 toc = true
