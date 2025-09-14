@@ -8,7 +8,7 @@ date = 2023-11-14T17:55:14Z
 ---
 
 # About Me
-I'm a Software Engineer currently working at Decipad [Decipad](https://www.decipad.com/). I do full-stack products, host my own services under my desk, solve coding problems and love to read.
+I'm a Software Engineer currently working at [Requesty](https://requesty.ai). I do full-stack products, host my own services under my desk, solve coding problems and love to read.
 
 Read my website on your terminal `ssh -p 23234 blog.johncosta.tech`.
 
@@ -38,12 +38,15 @@ You can find the rest of my projects on the [projects page](https://johncosta.te
 
 # Work
 
-## [Decipad](https://decipad.com) (Current)
-I work as a full-stack software engineer at Decipad. I am the lead developer for our interactive notebook, that allows users to build models with interactive widgets, rich text, calculations and tables. The editor also supports live-collaboration, multiple tabs and offline editing. 
+## [Requesty](https://requesty.ai) (2025-Current)
+I was hired 6 months after the product launched, and joined the team as the 2nd hire. We are building an AI-Gateway to support application development and development teams, providing analytics, cost saving, fallbacks and lots of other interesting things! We are moving very quickly, and so far I've mostly worked on the gateway, building latency based policies, and many other improvements.
+
+## [Decipad](https://decipad.com) (2022-2025)
+I worked as a full-stack software engineer at Decipad. I was the lead developer for our interactive notebook, that allows users to build models with interactive widgets, rich text, calculations and tables. The editor also supports live-collaboration, multiple tabs and offline editing. 
 
 I've also been responsible for refactoring various parts of the code base. I migrated our old create-react-app frontend to a more modern Vite + Rollup (with SWC), this allowed our developers to have instant updates instead of having to wait 10-15s for their changes to have effect. Furthermore I implemented type generation on our GraphQL server, which reduced backend bugs by 90%.
 
-I'm currently working on augmenting our notebooks with a chat, and BigQuery integrations (which we call data lake). This allows users to bring their own data, which we then sync to BigQuery every day, and allow the AI to interact with it.
+Before leaving, I was working on augmenting our notebooks with a chat, and BigQuery integrations (which we call data lake). This allows users to bring their own data, which we then sync to BigQuery every day, and allow the AI to interact with it.
 
 ## [Lead Engineer at Codegroovers](https://www.royalholloway.ac.uk/research-and-education/departments-and-schools/computer-science/news/one-year-of-code-groovers/)
 I was hired to lead the build a proof of concept system for the universities well-being team. This system allowed students to view all the universities well-being resources in one place, allowed them to keep track of their mental health, and provided charts for measuring progress. It also had a professional development part which allowed users to explore their future careers. You can find the code [here](https://github.com/JohnCosta27/WellbeingApp).
