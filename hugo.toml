@@ -22,6 +22,10 @@ theme = 'risotto'
     weight = 10
     name = 'Gists'
     pageRef = '/gists'
+[[menu.main]]
+    weight = 15
+    name = 'Places'
+    pageRef = '/places'
 
 [params.about]
 title = "John Costa"
