@@ -20,7 +20,7 @@ This should be done in a separate environment to the one you code in. For me, th
 1. Does each commit _still_ make sense?
 2. __High level overview__: Does it actually work? Are you wiring the correct functions to the correct place? We often miss the bigger picture when we're down in the code.
 3. Does the architecture make sense? Are the functions you choose and the abstraction you made worth it?
-4. Does it work E2E?
+4. Does it work end-to-end?
 5. __Nits__. Do the names make sense, is the spacing correct. Less important, but still very important. If you can't understand your own code, how can others?
 
 ## Optional: Have AI review your code
