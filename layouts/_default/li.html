@@ -1,0 +1,19 @@
+<li class="post-item">
+    {{ $format := "02 Jan 2006" }}
+    <a href="{{ .Permalink }}" class="post-item__link">
+        <span class="post-item__title">{{ .Title | markdownify }}</span>
+        <span class="post-item__date">{{ .Date.Format $format }}</span>
+    </a>
+    {{ if .Summary }}
+    <p class="post-item__summary">{{ .Summary | plainify | truncate 150 }}</p>
+    {{ end }}
+    {{ with .Params.tags }}
+    <div class="post-item__tags">
+        {{ range . }}
+        {{ with $.Site.GetPage (printf "/tags/%s" .) }}
+        <a href="{{ .Permalink }}" class="post-item__tag">{{ .Title }}</a>
+        {{ end }}
+        {{ end }}
+    </div>
+    {{ end }}
+</li>
