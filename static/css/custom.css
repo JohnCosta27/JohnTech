@@ -1,3 +1,73 @@
+/* ============================================
+   Global readability improvements
+   ============================================ */
+
+body {
+    font-size: 17px;
+    line-height: 1.5;
+    letter-spacing: 0.015em;
+    color: var(--base06);
+}
+
+p {
+    margin: 0 0 2rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 3rem 0 1rem 0;
+}
+
+/* ============================================
+   Links
+   ============================================ */
+
+a:link,
+a:visited {
+    transition: color 0.15s ease;
+}
+
+/* ============================================
+   Blockquotes
+   ============================================ */
+
+blockquote {
+    margin: 0 0 2rem 0;
+    padding: 0.75rem 1.25rem;
+    border-left: 3px solid var(--base0E);
+    background-color: var(--base01);
+    border-radius: 0 4px 4px 0;
+}
+
+blockquote::before {
+    content: none;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+/* ============================================
+   Code blocks
+   ============================================ */
+
+pre {
+    border-radius: 6px;
+    padding: 1.25rem 1.5rem;
+}
+
+code {
+    border-radius: 3px;
+    padding: 0.15em 0.35em;
+}
+
+pre code {
+    padding: 0;
+}
+
+/* ============================================
+   Post list
+   ============================================ */
+
 .post-list {
     list-style: none;
     padding-left: 0;
@@ -60,11 +130,12 @@
 
 .post-item__tag {
     font-size: 0.7rem;
-    padding: 0.1rem 0.5rem;
+    padding: 0.15rem 0.55rem;
     background-color: var(--base02);
     color: var(--base0E);
     border-radius: 3px;
     text-decoration: none;
+    transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 .post-item__tag:link,
@@ -75,4 +146,25 @@
 .post-item__tag:hover {
     background-color: var(--base03);
     color: var(--hover);
+}
+
+/* ============================================
+   Mobile
+   ============================================ */
+
+@media (max-width: 30rem) {
+    .post-item__link {
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+
+    .post-item__date {
+        order: -1;
+        font-size: 0.75rem;
+    }
+
+    .post-item__tag {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.65rem;
+    }
 }
