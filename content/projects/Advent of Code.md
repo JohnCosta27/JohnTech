@@ -6,6 +6,6 @@ toc = true
 tags = ["Software", "Advent of Code"]
 +++
 
-Git Repo: https://github.com/JohnCosta27/AdventOfCode
+Git Repo: https://git.johncosta.tech/JohnCosta27/AdventOfCode/
 
 I'm a massive fan of the Advent of Code, I have created a big mono repo of all the years solutions.
